@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fragments List</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="cities">
+        <item>City A</item>
+        <item>City B</item>
+        <item>City C</item>
+        <item>City D</item>
+        <item>City E</item>
+    </string-array>
+    <string name="fragment_2_text">Hey there! It is fragment 2 with parameter: %s</string>
+</resources>

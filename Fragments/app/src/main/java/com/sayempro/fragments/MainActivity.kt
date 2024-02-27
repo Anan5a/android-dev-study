@@ -29,9 +29,14 @@ class MainActivity : AppCompatActivity() {
 
             val secondFragment = SecondFragment()
             fragmentTransaction2.replace(R.id.frame, secondFragment)
+            fragmentTransaction2.addToBackStack(null)
             fragmentTransaction2.commit()
 
         }
 
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
     }
 }
