@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:orientation="vertical"
+    android:background="@drawable/game_background"
+    >
+
+    <LinearLayout
+        android:id="@+id/gameInfo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/ice_blue"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewGameType"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="\?"
+            android:textAlignment="textStart"
+            android:textColor="#E91E63"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gameScore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Score:"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gameScoreValue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gameLife"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Life:"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gameLifeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gameTime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Time:"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gameTimeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="00"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutGameInput"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gameQuestion"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_margin="20dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="\? (\?) \?"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/gameAnswer"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:background="@color/blue"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Answer?"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="34sp"
+            android:focusedByDefault="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutGameButtons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+<!--        <Button-->
+<!--            android:id="@+id/buttonOk"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:backgroundTint="#FFFFFF"-->
+<!--            android:gravity="center"-->
+<!--            android:outlineProvider="none"-->
+<!--            android:text="OK"-->
+<!--            android:textColor="@color/ice_blue"-->
+<!--            app:strokeColor="@color/ice_blue"-->
+<!--            app:strokeWidth="2dp" />-->
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="center"
+            android:outlineProvider="none"
+            android:text="NEXT"
+            android:textColor="@color/ice_blue"
+            android:textSize="34sp"
+            app:strokeColor="@color/ice_blue"
+            app:strokeWidth="2dp" />
+    </LinearLayout>
+
+</LinearLayout>

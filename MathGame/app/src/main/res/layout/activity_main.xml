@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/gameTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:rotation="-8"
+        android:rotationX="-14"
+        android:rotationY="-10"
+        android:text="Mathhy"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="96sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonAddition"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:text="ADDITION"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonSubtraction"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:text="SUBTRACTION"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonMultiplication"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:text="MULTIPLICATION"
+        android:textSize="24sp" />
+
+</LinearLayout>

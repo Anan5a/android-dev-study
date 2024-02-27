@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Toggle Buttons</string>
+    <string-array name="countries">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>China</item>
+        <item>USA</item>
+        <item>U.K</item>
+        <item>Japan</item>
+    </string-array>
+</resources>

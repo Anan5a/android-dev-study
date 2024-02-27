@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multi Lang</string>
+    <string name="hello">Sagotom</string>
+    <string name="show_toast">Ekti tost dekhan</string>
+    <string name="toast_message">Eti ekti tost barta!</string>
+</resources>
