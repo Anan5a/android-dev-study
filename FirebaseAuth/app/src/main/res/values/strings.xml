@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Firebase User Auth</string>
+    <string name="fcm_channel_id">fcm123</string>
+</resources>
